@@ -1,0 +1,33 @@
+# Core Framework
+Django>=4.2.0
+djangorestframework>=3.14.0
+
+# Database & Environment
+django-environ>=0.10.0
+django-cors-headers>=4.0.0
+
+# Authentication (JWT)
+djangorestframework-simplejwt>=5.2.0
+passlib[bcrypt]>=1.7.4
+
+# API Documentation (Swagger)
+drf-spectacular>=0.26.0
+
+# Persian Calendar
+jdatetime>=5.0.0
+
+# MQTT Client for ESP32
+paho-mqtt>=1.6.1
+
+# Task Scheduling (Notifications)
+django-apscheduler>=0.6.2
+apscheduler>=3.10.1
+
+# Production Server
+gunicorn>=21.2.0
+uvicorn[standard]>=0.22.0
+
+psycopg2-binary
+
+exponent-server-sdk==2.0.0
+django-environ==0.11.2
